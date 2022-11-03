@@ -10,7 +10,7 @@ const Header = () => {
                     <Image src="./icons/arrow-left.svg" alt="Left arrow" />
                     <Image src="./icons/arrow-right.svg" alt="Right arrow" />
                 </div>
-                <Input size='large' />
+                <Input size='large'/>
             </Flex>
         </StyledHeader>
     );
