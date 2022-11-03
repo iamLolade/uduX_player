@@ -1,8 +1,10 @@
+import { StyledHeader } from "../styles/Header.styled";
+
 const Header = () => {
     return (
-        <div style={{ backgroundColor: 'black', height: '100px'}}>
+        <StyledHeader>
             T
-        </div>
+        </StyledHeader>
     );
 }
  
