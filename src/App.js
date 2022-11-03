@@ -12,7 +12,7 @@ function App() {
       <GlobalStyles />
       <Sidebar />
       <div style={{width: '82%'}}>
-        <Header /> 
+        <Header />
       </div>
     </Container>
   );
