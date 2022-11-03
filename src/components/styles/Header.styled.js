@@ -11,3 +11,10 @@ export const StyledHeader = styled.div`
 export const Image = styled.img`
   margin-right: 10px;
 `
+
+export const Input = styled.input`
+    background: #000;
+    border: 1px solid #0F0F0F;
+    width: 471px;
+    height: 56px; 
+`
