@@ -10,7 +10,39 @@ export const StyledCard = styled.div`
 `
 
 export const CardContent = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     height: 90%;
     margin: 10px auto;
+    padding: 0 auto;
     background: ${({bg}) => bg }
+`
+
+export const ImageContainer = styled.div`
+    max-width: 164px;
+    min-width: 130px;
+    padding: 5px auto 10px;
+    background: #0000
+`
+
+export const CardImage = styled.img`
+    max-width: 164px;
+    min-width: 130px;
+`
+export const CardLabel = styled.h3`
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 19px;
+    letter-spacing: 0.04em;
+    justify-content: start
+`
+export const CardDescription = styled.p`
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: rgba(255, 255, 255, 0.9);
+    padding-bottom: 10px
 `
