@@ -9,6 +9,10 @@ export const StyledMain = styled.div`
     margin: 0 auto;
     overflow: auto;
     padding-bottom: 20px;
+
+    @media (max-width: 768px) {
+        width: 100%
+    }
 `
 
 export const Banner = styled.img`

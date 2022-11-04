@@ -4,15 +4,17 @@ import Main from './components/main/Main';
 import Sidebar from './components/sidebar/Siderbar';
 import GlobalStyles from './components/styles/Global';
 import { Container } from './components/styles/Container.styled';
+import IsMobile from './utils/IsMobile';
 
 
 function App() {
+  const isMobile = IsMobile()
 
   return (
     <Container>
       <GlobalStyles />
-      <Sidebar />
-      <div style={{width: '82%'}}>
+      {!isMobile && <Sidebar />}
+      <div style={{width: isMobile ? '100%' : '82%'}}>
         <Header />
         <Main />
       </div>
