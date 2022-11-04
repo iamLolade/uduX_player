@@ -1,6 +1,17 @@
+import { StyledCard, CardContent } from "../styles/Card.styled";
+import { cardData } from "./cardData";
+
 const Card = () => {
     return (
-        <div></div>
+        <>
+            {cardData?.map(({key, src, bg, label, text}) => (
+                <StyledCard key={key}>
+                    <CardContent bg={bg}>
+
+                    </CardContent>
+                </StyledCard>
+            ))}
+        </>
     );
 }
  

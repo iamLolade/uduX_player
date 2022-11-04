@@ -1,4 +1,5 @@
-import { StyledMain, Banner, MainText, Content } from "../styles/Main.styled";
+import { StyledMain, Banner, MainText, Content, CardContainer } from "../styles/Main.styled";
+import Card from "../card/Card";
 
 const Main = () => {
     return (
@@ -8,6 +9,15 @@ const Main = () => {
                 <MainText>
                     Welcome Back!
                 </MainText>
+                <CardContainer>
+                    <Card />
+                </CardContainer>
+                <MainText>
+                    Cheers to the Weekend 
+                </MainText>
+                <CardContainer>
+                    <Card />
+                </CardContainer>
             </Content>
         </StyledMain>
     );

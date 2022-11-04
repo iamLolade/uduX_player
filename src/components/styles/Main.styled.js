@@ -3,10 +3,12 @@ import styled from 'styled-components'
 export const StyledMain = styled.div`
     display: flex;
     flex-direction: column;
-    height: 90%;
+    height: 80%;
     background: #000;
     padding: 0 20px;
     margin: 0 auto;
+    overflow: auto;
+    padding-bottom: 20px;
 `
 
 export const Banner = styled.img`
@@ -18,4 +20,10 @@ export const Content = styled.div`
 export const MainText = styled.h3`
     font-weight: 700;
     font-size: 28px;
+`
+
+export const CardContainer = styled.div`
+    display: flex;
+    flex-direction: row;
+    overflow: auto
 `
