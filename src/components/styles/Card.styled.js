@@ -17,14 +17,14 @@ export const CardContent = styled.div`
     justify-content: space-evenly;
     height: 90%;
     margin: 10px auto;
-    padding: 0 auto;
+    padding: 15px 10px;
     background: ${({bg}) => bg }
 `
 
 export const ImageContainer = styled.div`
     max-width: 164px;
     min-width: 130px;
-    padding: 5px auto 10px;
+    padding: 5px auto;
     background: #0000
 `
 
@@ -38,7 +38,7 @@ export const CardLabel = styled.h3`
     color: #FFFFFF;
     line-height: 19px;
     letter-spacing: 0.04em;
-    justify-content: start
+    justify-content: start;
 `
 export const CardDescription = styled.p`
     font-weight: 500;
