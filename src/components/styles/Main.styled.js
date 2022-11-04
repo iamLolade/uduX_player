@@ -24,6 +24,10 @@ export const Content = styled.div`
 export const MainText = styled.h3`
     font-weight: 700;
     font-size: 28px;
+
+    @media (max-width: 768px) {
+        font-size: 18px;
+    }
 `
 
 export const CardContainer = styled.div`
