@@ -48,7 +48,15 @@ export const NavLink = styled.div`
     cursor: pointer;
     margin: 5px 0;
     font-weight: 600;
-    margin-left: 20px;
+    padding-left: 20px;
+
+    &:hover {
+        color: #FBBA12;
+        transform: scale(1.06);
+        border: 0.5px solid #0F0F0F;
+        border-radius: 3em;
+        
+    }
 `
 
 export const SecondaryLink = styled.div`
@@ -61,7 +69,15 @@ export const SecondaryLink = styled.div`
     cursor: pointer;
     margin: 5px 0;
     font-weight: 500;
-    margin-left: 20px;
+    padding-left: 20px;
+
+    &:hover {
+        color: #FBBA12;
+        transform: scale(1.06);
+        border: 0.5px solid #0F0F0F;
+        border-radius: 3em;
+        
+    }
 `
 
 export const Divider = styled.div`
