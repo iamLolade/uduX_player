@@ -17,7 +17,7 @@ const Sidebar = () => {
                 ))}
                 <Divider />
             </Nav>
-            <Nav>
+            <Nav border='0.5px solid #282828'>
                 {secondaryNav?.map((nav, index) => (
                     <SecondaryLink key={index}>
                         {nav.name}

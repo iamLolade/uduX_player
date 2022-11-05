@@ -10,6 +10,12 @@ export const StyledHeader = styled.div`
 
 export const Image = styled.img`
   margin-right: 10px;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.11);
+    border-radius: 3px;
+  }
 `
 
 export const Input = styled.input`
