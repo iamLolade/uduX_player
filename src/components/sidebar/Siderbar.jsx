@@ -1,11 +1,12 @@
 import { StyledSidebar, Profile, Avatar, Divider, Nav, NavLink, SecondaryLink } from "../styles/Sidebar.styled";
 import { nav, secondaryNav } from "./navs/nav";
+import avatar from "../../public/images/avatar.svg"
 
 const Sidebar = () => {
     return (
         <StyledSidebar>
             <Profile>
-                <Avatar src='./icons/avatar.svg' alt='Avatar' />
+                <Avatar src={avatar} alt='Avatar' />
                 <p>Hey! Aleem</p>
             </Profile>
             <Nav>

@@ -1,10 +1,11 @@
 import { StyledMain, Banner, MainText, Content, CardContainer } from "../styles/Main.styled";
 import Card from "../card/Card";
+import banner from "../../public/images/banner.svg"
 
 const Main = () => {
     return (
         <StyledMain>
-            <Banner src='./icons/banner.svg' alt='Banner' />
+            <Banner src={banner} alt='Banner' />
             <Content>
                 <MainText>
                     Welcome Back!
