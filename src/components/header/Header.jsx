@@ -1,6 +1,7 @@
 import { StyledHeader, Image, Input } from "../styles/Header.styled";
 import { Flex } from "../styles/Flex.styled";
 import { Avatar } from "../styles/Sidebar.styled";
+import avatar from "../../public/images/avatar.svg"
 import arrow_left from "../../public/icons/arrow-left.svg";
 import arrow_right from "../../public/icons/arrow-right.svg";
 import IsMobile from "../../utils/IsMobile";
@@ -18,7 +19,7 @@ const Header = () => {
                         <Image src={arrow_right} alt="Right arrow" />
                     </div>
                     <Input />
-                </> : <Avatar src='./icons/avatar.svg' alt='Avatar'/>}
+                </> : <Avatar src={avatar} alt='Avatar'/>}
             </Flex>
         </StyledHeader>
     );
