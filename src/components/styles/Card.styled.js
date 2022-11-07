@@ -13,7 +13,7 @@ export const StyledCard = styled.div`
 export const CardContent = styled.div`
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     justify-content: space-evenly;
     height: 90%;
     margin: 10px auto;
@@ -38,7 +38,7 @@ export const CardLabel = styled.h3`
     color: #FFFFFF;
     line-height: 19px;
     letter-spacing: 0.04em;
-    justify-content: start;
+    margin-bottom: 3px;
 `
 export const CardDescription = styled.p`
     font-weight: 500;
